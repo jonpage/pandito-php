@@ -1,4 +1,8 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); 
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/**
+ * @author Jonathan Page <jonpage.econ@gmail.com>
+ */
+
 /**
  * Starting with the set of winning coalitions, filter for
  * coalitions which include the selected player, and sort this
