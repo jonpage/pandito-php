@@ -1,0 +1,1 @@
+<script>self.close();</script>
