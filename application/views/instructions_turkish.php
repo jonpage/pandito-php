@@ -54,6 +54,19 @@ ini_set('default_charset', 'iso-8859-9'); ?><!DOCTYPE html>
 
 <div class="section" id="page2">
 	<h1>Deneye Genel Bakýþ</h1>
+	<ul>
+		<li><strong>Siz dünyanýn her yerinden diðer iki katýlýmcý ile eþleþtirilmiþ olacak.</strong></li>
+		<li><strong>Herkes bir aðýrlýk verilecektir.</strong></li>
+		<li><strong>Her aþamada insanlarýn bir takým oluþturmak için oy. <br/>
+Hedefiniz büyük toplam aðýrlýðý olan bir ekip oluþturmaktýr.</strong></li>
+		<li><strong>Kazanan takým 100 Deneysel Para Birimleri bölünmüþ olacaktýr.</strong></li>
+	</ul>
+	Sonraki ekranlarý biz oyunun detaylarýný görüþmek.
+	<button class="prev">Previous</button><button class="next">Next</button>
+</div>
+
+<div class="section" id="page3">
+	<h1>Deneye Genel Bakýþ</h1>
 	<p>Dünyanýn farklý yerlerindeki katýlýmcýlardan iki tanesi ile eþleþtirileceksiniz. Eþleþtirildiðiniz kiþilerin kimlikleri size, sizin kimliðiniz de onlara açýklanmayacaktýr. Her birinize belirli aðýrlýklar verilecektir (Bu sayý kullanýcý rozetinizde parantez içinde belirtilecektir). Bu aðýrlýklarýn toplamý 100 olacaktýr.</p>
 	<img src="<?php echo base_url();?>img/propose.png" alt="Proposal Screen">
 	<p>Oyunun amacý, en büyük  aðýrlýða sahip grubu oluþturmaktýr. En büyük aðýrlýða sahip grubun üyeleri, 100 birim deney parasýný (C) aralarýnda, aþaðýda belirtilen kurallar doðrultusunda paylaþacaklardýr (katýlým bonusuna ek olarak). En büyük aðýrlýða sahip grubun üyesi olmayan katýlýmcýlar (Katýlým bonusu hariç) herhangi bir ödül kazanamayacaktýr. Katýlým bonusu 5 amerikan dolarýdýr.</p>
@@ -62,7 +75,7 @@ ini_set('default_charset', 'iso-8859-9'); ?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page3">
+<div class="section" id="page4">
 	<h1>Teklif Aþamasý</h1>
 	<p>
 	Sýranýz geldiðinde, diðer katýlýmcýlara ait rozetleri seçerek (“Grup Üyelerini Seçiniz” altýnda) ya da “Önerilen Gruplar” listesindeki maddelere týklayarak grup kurma teklifinizi sunabilirsiniz. Her öneride, grup teklifindeki üyelerin tam listesi ile birlikte sizin alabileceðiniz ödeme de görüntülenmektedir. Öneriler, alabileceðiniz ödemeye göre azalan sýra ile listelenmiþtir. 
@@ -75,7 +88,7 @@ ini_set('default_charset', 'iso-8859-9'); ?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page4">
+<div class="section" id="page5">
 	<h1>Oylama Aþamasý</h1>
 	<p>Bir katýlýmcý size onun grubuna katýlmanýz konusunda teklif sunduðunda, grubu onaylamak için oyunuz sorulacaktýr. “Diðer Gruplar” listesi, sizin mevcut teklifinizi, üyesi olabileceðiniz diðer gruplardan gelen teklifler ile kýyaslamanýzý saðlayacaktýr.</p>
 	<p>“Evet” ya da “Hayýr” butonlarýna týklayarak oyunuzu kullanýn. Teklif sunulan gruptaki tüm katýlýmcýlar “Evet” derlerse grup oluþturulacaktýr, aksi halde grup oluþturulmayacaktýr.</p>
@@ -83,14 +96,14 @@ ini_set('default_charset', 'iso-8859-9'); ?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page5">
+<div class="section" id="page6">
 	<h1>Sonuç Aþamasý</h1>
 	<p>Bir katýlýmcý, bir gruba teklif sunduktan sonra, tüm potansiyel üyeler oylarýný kullanacak ve siz sonuçlarýn bir özetini göreceksiniz. Deneye devam etmek için “Devam” butonuna týklayýn. Eðer deney tamamlandýysa “Ödemeye Gözat” butonuna týklayýn.</p>
 	<img src="<?php echo base_url();?>img/results.png" alt="Results Screen"><br/>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page6">
+<div class="section" id="page7">
 	<h1>Ödeme Açýklamalarý</h1>
 	<p>Katýlacaðýnýz iki çeþit deney vardýr, PROPORTIONAL ya da EQUAL.</p>
 	<ul>
@@ -111,7 +124,7 @@ ini_set('default_charset', 'iso-8859-9'); ?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page8">
 	<h1>Ödeme ve Para Birimi Dönüþtürme</h1>
 	<p>Son durumda alacaðýnýz ödeme, hangi ülkeden katýldýðýnýza baðlý olarak deðiþecektir. Ekranda görünen miktarlar deney para birimi (C) olacaktýr. Her oyunda, C100 birim deney parasý, kazananlar arasýnda paylaþtýrýlacaktýr. Ödemeniz, hangi ülkeden katýldýðýnýza baðlý olarak deðiþecektir. Sonraki bölümde, deney para birimini ülkenizin para birimine nasýl çevireceðiniz konusundaki detaylarý bulabilirsiniz.</p>
 
@@ -142,7 +155,7 @@ ini_set('default_charset', 'iso-8859-9'); ?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page9">
 	<h1>Önemli Notlar</h1>
 	<p>Deney boyunca adýmlarýnýz izlenecektir. Eðer size ayrýlan süreden daha fazla beklerseniz, sizin adýnýza otomatik olarak rastgele bir seçim yapýlacak ve bunun sonucu olarak alacaðýnýz ödeme azalacaktýr. 45 saniye teklif sunma süreniz, 30 saniye oylama süreniz ve 30 saniye sonuçlarý görüntüleme süreniz olacaktýr.</p>
 	<p>Eðer ekran güncellenmezse ya da bir sorun yaþadýðýnýzý düþünürseniz, lütfen tarayýcýnýz aracýlýðýyla sayfayý yeniden yükleyin. Bu iþlemi F5 tuþuna basarak yapabilirsiniz.</p>

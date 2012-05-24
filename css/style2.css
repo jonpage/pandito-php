@@ -3,6 +3,12 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 }
 
+h2 {
+	background-color: #F9F43D;
+	border: 1px solid #787400;
+	color: #AC222B;
+}
+
 .legend{
 	margin-top: 50px;
 }

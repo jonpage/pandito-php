@@ -50,15 +50,28 @@
 
 <div class="section" id="page2">
 	<h1>Overview of the Experiment</h1>
-	<p>You will be paired with two other participants from around the world. Their identity will not be revealed to you and yours will not be revealed to them. Each of you will be given a weight (this number is in parenthesis in each player's badge). The sum of these weights is 100.</p>
-	<img src="<?php echo base_url();?>img/propose.png" alt="Proposal Screen">
-	<p>The objective of the game is to form the heaviest group. The heaviest group will split 100 experimental currency units (C) between its members using one of the sharing rules discussed below (in addition to the participation fee). The participants who are not part of the group with the largest weight will earn nothing (except for their participation fee).</p>
-	<p>The experiment is divided into three rounds. At every round, each player will have one turn to make a proposal to form a group of participants. The participants in the proposed group will then vote "Yes" or "No" to decide whether or not the group will form. Proposed groups will only form if all members vote "Yes".</p>
-	<p>When three rounds have passed, or a participant repeats a proposal, the experiment will end and the participants in the heaviest group will be rewarded accordingly.</p>
+	<ul>
+		<li><strong>You will be paired with two other participants from around the world.</strong></li>
+		<li><strong>Everyone will be given a weight.</strong></li>
+		<li><strong>At every stage people vote to form a team. <br/>
+Your objective is to form a team with the largest total weight.</strong></li>
+		<li><strong>The winning team will split 100 Experimental Currency Units.</strong></li>
+	</ul>
+	In the next screens we discuss the details of the game.
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
 <div class="section" id="page3">
+	<h1>Overview of the Experiment (Extended)</h1>
+	<p>You will be paired with two other participants from around the world. Their identity will not be revealed to you and yours will not be revealed to them. Each of you will be given a weight (this number is in parenthesis in each player's badge). The sum of these weights is 100.</p>
+	<img src="<?php echo base_url();?>img/propose.png" alt="Proposal Screen">
+	<p>The objective of the game is to form the group with the largest total weight. The group with the largest total weight will split 100 experimental currency units (C) between its members using one of the sharing rules discussed below (in addition to the participation fee). The participants who are not part of the group with the largest weight will earn nothing (except for their participation fee).</p>
+	<p>The experiment is divided into three rounds. At every round, each player will have one turn to make a proposal to form a group of participants. The participants in the proposed group will then vote "Yes" or "No" to decide whether or not the group will form. Proposed groups will only form if all members vote "Yes".</p>
+	<p>When three rounds have passed, or a participant repeats a proposal, the experiment will end and the participants in the group with the largest total weight will be rewarded accordingly.</p>
+	<button class="prev">Previous</button><button class="next">Next</button>
+</div>
+
+<div class="section" id="page4">
 	<h1>Proposal Stage</h1>
 	<p>
 	When it is your turn, you will be able to propose groups by either selecting the badges corresponding to the other participants (under "Select Group Members"), or by clicking one of the entries in the list of "Suggested Groups". Each suggestion includes your payout followed by a complete listing of the members of the corresponding group proposal. These suggestions are sorted by your payout in descending order. 
@@ -71,7 +84,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page4">
+<div class="section" id="page5">
 	<h1>Voting Stage</h1>
 	<p>When a participant has proposed for you to join them in a group, you will be asked to vote to approve the group. The "Alternate Groups" list allows you to see the current proposal alongside all other groups of which you would be a member with their corresponding payouts for comparison.</p>
 	<p>Vote by clicking "Yes" or "No". If all participants in the proposed group vote "Yes", then that group will be formed, otherwise the group will not be formed.</p>
@@ -79,14 +92,14 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page5">
+<div class="section" id="page6">
 	<h1>Results Stage</h1>
 	<p>After a participant proposes a group and all potential members have voted, you will be shown an overview of the results. Simply press "Continue" to proceed with the experiment, or press "Review Payout" when the experiment is over.</p>
 	<img src="<?php echo base_url();?>img/results.png" alt="Results Screen"><br/>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page6">
+<div class="section" id="page7">
 	<h1>Explanation of Payouts</h1>
 	<p>There are two types of experiments in which you participate, PROPORTIONAL or EQUAL.</p>
 	<ul>
@@ -106,7 +119,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page8">
 	<h1>Payment and Currency Conversion</h1>
 	<p>Your final payment depends on the country you are participating from. The amount shown in the screen is on experimental currency (C). In every game, C100 units of experimental currency are split among the winners. Your payout is dependent on the country you are from and the details of how to convert experimental dollars into actual money in your home country are given in the table in the next section.</p>
 
@@ -137,7 +150,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page9">
 	<h1>Important Notes</h1>
 	<p>Your pace throughout the experiment is monitored. If you take longer than the allotted time, your turn will be automated by making a decision at random and you payout will be reduced accordingly. You will be given 45 seconds to propose, 30 seconds to vote, and 30 seconds to review the results.</p>
 	<p>If the screen does not appear to update, or you believe you are experiencing an error, please refresh the browser. This can be accomplished by pressing the F5 key.</p>

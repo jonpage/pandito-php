@@ -289,6 +289,11 @@ function group_badge($group,$current_player,$winning=false){
 
 <div class="group<?php if($winning) { echo " winning"; } ?>" style="margin:5px;">
 	<?php
+	if($winning){?>
+		<img src=<?php echo '"' . base_url('img/dollar.png') . '"'; ?> width="64" style="float:left;margin:5px;">
+	<?php } else { ?>
+		<img src=<?php echo '"' . base_url('img/no_dollar.png') . '"'; ?> width="64" style="float:left;margin:5px;">
+	<?php }
 	arsort($group['proportions']);
 	foreach ($group['proportions'] as $agent => $proportion) {
 
@@ -337,6 +342,11 @@ foreach ($json['current_groups'][0]['proportions'] as $agent => $value) {
 	<?php
 	$win = true;
 	foreach ($json['current_groups'] as $group) {
+		if($win){
+			echo img('img/dollar.png');
+		} else { 
+			echo img('img/no_dollar.png');
+		}
 		group_badge($group,$json['proposer'],$win);
 		$win = false;
 	}
@@ -353,10 +363,10 @@ foreach ($json['current_groups'][0]['proportions'] as $agent => $value) {
 
 <div class="center_col">
 <h3>Proposal Stage</h3>
-<h1>Select Group Members</h1>
+<h2>Please Select Group Members</h2>
  <?php badge_clicker($json['powers'],$json['proposer'],$agent_group); ?><br/>
  <br/>
- <h1>Suggested Groups</h1>
+ <h2>Or Select an Available Group</h2>
  <?php suggestion_list($json,$num_agents,$json['current_groups'],$agent_group); ?><br />
  <button type="submit" name="btn_new_group" value="Confirm Proposal">Confirm Proposal</button>
 </div>
@@ -366,6 +376,11 @@ foreach ($json['current_groups'][0]['proportions'] as $agent => $value) {
 	<?php 
 	$win = true;
 	foreach ($json['current_groups'] as $group) {
+		if($win){
+			echo img('img/dollar.png');
+		} else { 
+			echo img('img/no_dollar.png');
+		}
 		group_badge($group,$json['proposer'],$win);
 		$win = false;
 	}

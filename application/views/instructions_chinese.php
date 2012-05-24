@@ -55,6 +55,19 @@ header('Content-Type: text/html; charset=GB18030');?><!DOCTYPE html>
 
 <div class="section" id="page2">
 	<h1>实验概述</h1>
+	<ul>
+		<li><strong>你将与来自世界各地的其他参与者配对。</strong></li>
+		<li><strong>每个人都将得到一个重量。</strong></li>
+		<li><strong>在每一个阶段的人投票，以形成一个团队。 <br/>
+你的目标是形成一个团队的最大总重量。</strong></li>
+		<li><strong>获胜的球队将分成100个实验的货币单位。</strong></li>
+	</ul>
+	在接下来的画面中，我们讨论的游戏细节。
+	<button class="prev">Previous</button><button class="next">Next</button>
+</div>
+
+<div class="section" id="page3">
+	<h1>实验概述</h1>
 	<p>你将与​​来自世界各地的其他参与者配对。他们的身份不会被透露给你，你将不会被透露给他们。你们每个人将得到一个重量（括号中的这个数字是每个球员的徽章）。这些权重的总和为100。</p>
 	<img src="<?php echo base_url();?>img/propose.png" alt="Proposal Screen">
 	<p>游戏的目的是要形成重组。最重的一组将分成100实验其成员之间的货币单位（三）使用下面讨论（除了参与费）分摊规则之一。谁不与最大重量组的一部分的参与者将获得什么（除了他们的参与费）。</p>
@@ -63,7 +76,7 @@ header('Content-Type: text/html; charset=GB18030');?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page3">
+<div class="section" id="page4">
 	<h1>提案阶段</h1>
 	<p>当轮到你时，你将能够提出通过选择相应的其他参与者（在“选择组成员”）的徽章组，或按一下“推荐组”列表中的条目之一。每个建议，包括你的支出由相应组的建议成员的完整列表。这些建议是您的奖金降序排序。</p>
 	<p>一旦你与你的建议表示满意，点击“确认的建议”。</p>
@@ -72,7 +85,7 @@ header('Content-Type: text/html; charset=GB18030');?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page4">
+<div class="section" id="page5">
 	<h1>投票阶段</h1>
 	<p>当参与者提出你加入他们在一个组，你将被要求投票批准组。“替代组”列表，让你看到目前所有其他的组，其中，你会比较其对应的赢钱成员一起建议。</p>
 	<p>通过点击投票“是”或“否”。如果拟议的组中的所有参与者投票“是”，那么该组将形成，否则，该集团将无法形成。</p>
@@ -80,14 +93,14 @@ header('Content-Type: text/html; charset=GB18030');?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page5">
+<div class="section" id="page6">
 	<h1>结果第一阶段</h1>
 	<p>后，与会者提出了组和所有潜在的成员已经投票，你将看到的结果的概述。只需按一下“继续”进行实验，实验结束时，按“审查赔付”。</p>
 	<img src="<?php echo base_url();?>img/results.png" alt="Results Screen"><br/>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page6">
+<div class="section" id="page7">
 	<h1>对取款的说明</h1>
 	<p>有两种类型的实验，在其中参与，比例或平等。</p>
 	<ul>
@@ -108,7 +121,7 @@ header('Content-Type: text/html; charset=GB18030');?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page8">
 	<h1>付款和货币兑换</h1>
 	<p>您的最终付款取决于你正在参加由该国。在屏幕上显示的金额是对实验性货币（c）。在每场比赛中，C100级实验货币单位的优胜者之间的分裂。您的奖金是取决于你是从国家和实验美元，在你的家乡如何转换到实际货币表中，将在下一节详细信息。</p>
 	<table>
@@ -137,7 +150,7 @@ header('Content-Type: text/html; charset=GB18030');?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page9">
 	<h1>重要事项</h1>
 	<p>监测整个实验的步伐。如果您需要更长的时间比规定的时间，轮到你将自动随机决定和你支出将相应减少。你会得到提出的45秒，30秒投票，和30秒的检讨结果。</p>
 	<p>如果屏幕上没有出现更新，或者你认为你遇到错误，请刷新浏览器。这可以通过按F5键。</p>

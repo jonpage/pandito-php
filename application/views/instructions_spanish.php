@@ -54,6 +54,19 @@
 
 <div class="section" id="page2">
 	<h1>Descripción del experimento</h1>
+	<ul>
+		<li><strong>Usted puede combinar con otros dos participantes de todo el mundo.</strong></li>
+		<li><strong>Todo el mundo se le dará un peso.</strong></li>
+		<li><strong>En cada etapa la gente vota para formar un equipo. <br/>
+Su objetivo es formar un equipo con el mayor peso total.</strong></li>
+		<li><strong>El equipo ganador se repartirán 100 unidades monetarias experimentales.</strong></li>
+	</ul>
+	En la pantalla siguiente se discuten los detalles del juego.
+	<button class="prev">Previous</button><button class="next">Next</button>
+</div>
+
+<div class="section" id="page3">
+	<h1>Descripción del experimento</h1>
 	<p>Usted puede combinar con otros dos participantes de todo el mundo. Su identidad no será revelada a usted y los suyos no será revelada a ellos. Cada uno de ustedes se les dará un peso (este número se encuentra en paréntesis en la tarjeta de identificación de cada jugador). La suma de estos pesos es de 100.</p>
 	<img src="<?php echo base_url();?>img/propose.png" alt="Proposal Screen">
 	<p>El objetivo del juego es para formar el grupo más pesado. El mayor grupo se repartirán 100 unidades monetarias experimentales (C) entre sus miembros con una de las normas de reparto se analizan a continuación (además de la cuota de participación). Los participantes que no son parte del grupo con el mayor peso se gana nada (a excepción de su cuota de participación).</p>
@@ -62,7 +75,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page3">
+<div class="section" id="page4">
 	<h1>Propuesta de la etapa</h1>
 	<p>
 	Cuando es su turno, usted será capaz de proponer los grupos ya sea seleccionando las insignias correspondientes a los demás participantes (en "Miembros del Grupo Select"), o haciendo clic en una de las entradas en la lista de "grupos sugeridos". Cada propuesta incluye su pago seguido por una lista completa de los miembros de la propuesta del grupo correspondiente. Estas sugerencias se ordenan por su pago en orden descendente.
@@ -75,7 +88,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page4">
+<div class="section" id="page5">
 	<h1>Votación Etapa</h1>
 	<p>Cuando un participante se ha propuesto para que usted pueda unirse a ellos en un grupo, se le pedirá a votar para aprobar el grupo. El "grupos alternativos" lista permite usted a ver la propuesta junto con todos los demás grupos de los cuales se le indica que un miembro con los pagos correspondientes para la comparación.</p>
 	<p>Vota haciendo clic en "Sí" o "No". Si todos los participantes en el grupo propuesto votar "Sí", entonces ese grupo se formó, de lo contrario el grupo no se formará.</p>
@@ -83,14 +96,14 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page5">
+<div class="section" id="page6">
 	<h1>Resultados de la Etapa</h1>
 	<p>Después de un participante propone un grupo y todos los miembros potenciales han votado, se le mostrará un resumen de los resultados. Simplemente pulse en "Continuar" para proseguir con el experimento, o pulse el botón "Pago de revisión" cuando el experimento se ha terminado.</p>
 	<img src="<?php echo base_url();?>img/results.png" alt="Results Screen"><br/>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page6">
+<div class="section" id="page7">
 	<h1>Explicación de los pagos</h1>
 	<p>Hay dos tipos de experimentos en los que usted participa, proporcional o de EQUAL.</p>
 	<ul>
@@ -110,7 +123,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page8">
 	<h1>El pago y la conversión de moneda
 
 
@@ -144,7 +157,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page9">
 	<h1>Notas Importantes</h1>
 	<p>Su ritmo durante todo el experimento se controla. Si usted toma más tiempo que el tiempo asignado, el turno será automatizado por tomar una decisión al azar y se pago se reducirá en consecuencia. Se le dará 45 segundos para proponer, 30 segundos para votar, y 30 segundos para revisar los resultados.</p>
 	<p>Si la pantalla no aparece para actualizar, o usted cree que está experimentando un error, por favor, actualice el explorador. Esto se puede conseguir pulsando la tecla F5.</p>

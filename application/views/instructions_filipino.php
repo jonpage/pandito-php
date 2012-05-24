@@ -50,10 +50,23 @@
 
 <div class="section" id="page2">
 	<h1>Pangkalahatang Ideya ng Eksperiment</h1>
+	<ul>
+		<li><strong>Ikaw ay na ipares may dalawang iba pang mga kalahok mula sa buong mundo.</strong></li>
+		<li><strong>Lahat ay ibinigay timbang.</strong></li>
+		<li><strong>Sa bawat yugto ang mga tao bumoto upang bumuo ng isang koponan. <br/>
+Ang iyong layunin ay upang bumuo ng isang team na may pinakamalaking kabuuang timbang.</strong></li>
+		<li><strong>Ang nanalong koponan ay split ng 100-eksperimento Yunit ng Pera.</strong></li>
+	</ul>
+	Sa susunod na screen namin-usapan ang mga detalye ng laro.
+	<button class="prev">Previous</button><button class="next">Next</button>
+</div>
+
+<div class="section" id="page2">
+	<h1>Pangkalahatang Ideya ng Eksperiment</h1>
 	<p>Ikaw ay ipa-pares sa dalawa pang kalahok sa iba’t-ibang bansa. Ang mga impormasyon tungkol sa kanila ay hindi ipahahayag sa iyo at gayundin ang mga impormasyon tungkol sa iyo ay hindi ipahahayag sa kanila. Ang bawat isa sa inyo ay bibigyan ng isang timbang (ang bilang na ito ay nasa sa loob ng parenthesis ng bawat badge ng manlalaro). Ang kabuuan ng mga timbang ay 100..</p>
 	<img src="<?php echo base_url();?>img/propose.png" alt="Proposal Screen">
 	<p>Ang layunin ng laro ay bumuo ng grupo na may pinakamabigat na timbang. Ang mga miyembro ng pinakamabigat na grupo ay maghahati-hati sa100-experimental currency units (C) alinsunod sa paraan ng paghati na itinalakay sa ibaba (ito ay dagdag pa sa bayad sa pakikilahok). Ang mga kalahok na hindi bahagi ng grupo na may pinakamabigat na timbang ay walang kikitain (maliban na lamang sa bayad nila sa pakikilahok).</p>
-	<p>Ang eksperimento ay nahahati sa tatlong rounds. Sa bawat round, ang bawat isang manlalaro ay mabibigyan ng pagkakataon na imungkahi kung sino ang gusto nilang makasama sa grupo. Ang mga kalahok sa iminungkahing grupo ay boboto ng "Yes" o "No" kung gusto nilang mabuo ang grupo. Ang iminungkahing grupo ay mabubuo lamang kapag ang lahat ng miyembro ay boboto ng “Yes”.</p>
+	<p>Ang eksperimento ay nahahati sa tatlong rounds. Sa bawat round, ang bawat isang manlalaro ay mabibigyan ng pagkakataon na imungkahi kung sino ang gusto nilang makasama sa grupo. Ang mga kalahok sa iminungkahing grupo ay boboto ng "Yes" o "No" kung gusto nilang mabuo ang grupo. Ang iminungkahing grupo ay mabubuo lamang kapag ang lahat ng miyembro ay boboto ng "Yes".</p>
 	<p>Makalipas ang tatlong rounds, o kung ang kalahok ay umulit ng panukala, ang eksperimento ay matatapos na at ang grupo na may pinakamabigat na timbang ang mananalo ng salapi.</p>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
@@ -61,7 +74,7 @@
 <div class="section" id="page3">
 	<h1>Yugto ng Panukala</h1>
 	<p>
-	Kapag ikaw na ang taya, pwede mong imungkahi kung sino ang gusto mong makasama sa grupo sa pamamagitan ng pagpili sa alinmang mga badges ng iba pang mga kalahok (ito ay sa ilalim ng "Select Group Members”), o sa pamamagitan ng pag-click ng isa sa mga entry sa listahan ng "Suggested Groups”. Kabilang sa bawat suhestyon ang iyong payout kasunod ng kumpletong listahan ng mga miyembro ng mga grupo na maaring piliin. Ang mga nasabing suhestyon ay nakaayos ayon sa iyong payout  mula sa pinakamalaki hanggang pinakamababa.
+	Kapag ikaw na ang taya, pwede mong imungkahi kung sino ang gusto mong makasama sa grupo sa pamamagitan ng pagpili sa alinmang mga badges ng iba pang mga kalahok (ito ay sa ilalim ng "Select Group Members"), o sa pamamagitan ng pag-click ng isa sa mga entry sa listahan ng "Suggested Groups". Kabilang sa bawat suhestyon ang iyong payout kasunod ng kumpletong listahan ng mga miyembro ng mga grupo na maaring piliin. Ang mga nasabing suhestyon ay nakaayos ayon sa iyong payout  mula sa pinakamalaki hanggang pinakamababa.
 	</p><p>
 	Kapag ikaw ay nasiyahan na sa iyong iminungkahing grupo, i-click ang "Confirm Proposal". 
 	</p><p>

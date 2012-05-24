@@ -188,6 +188,11 @@ function group_badge($group,$current_player,$winning=false){
 
 <div class="group<?php if($winning) { echo " winning"; } ?>" style="margin:5px;">
 	<?php
+	if($winning){?>
+		<img src=<?php echo '"' . base_url('img/dollar.png') . '"'; ?> width="64" style="float:left;margin:5px;">
+	<?php } else { ?>
+		<img src=<?php echo '"' . base_url('img/no_dollar.png') . '"'; ?> width="64" style="float:left;margin:5px;">
+	<?php }
 	arsort($group['proportions']);
 	foreach ($group['proportions'] as $agent => $proportion) {
 
@@ -342,8 +347,8 @@ function new_groups_set($json,$groups,$player_id=-1){
 </div>
 
 <div class="center_col">
-<h3>Voting Stage</h3><br/><br/>
-<h1>Vote</h1><br/>
+<h3>Voting Stage</h3><br/>
+<h2>Please vote if you would like to become a part of the proposed group</h2><br/>
  <button type="button" name="btn_vote_group" class="yes_button" value="Yes">Yes</button>
   &nbsp; or &nbsp;
  <button type="button" name="btn_vote_group" class="no_button" value="No">No</button><br/>

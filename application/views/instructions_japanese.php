@@ -52,6 +52,19 @@ ini_set('default_charset', 'euc-jp');?><!DOCTYPE html>
 
 <div class="section" id="page2">
 	<h1>実験の概要</h1>
+	<ul>
+		<li><strong>あなたは、世界中から2他の参加者とペアにされます。</strong></li>
+		<li><strong>皆が重量を与えられます。</strong></li>
+		<li><strong>あらゆる段階で人々がチームを形成するために投票します。 <br/>
+あなたの目的は、最大総重量でチームを形成することである。</strong></li>
+		<li><strong>優勝チームは、100の実験通貨単位に分割されます。</strong></li>
+	</ul>
+	次の画面では、ゲームの詳細を説明します。
+	<button class="prev">Previous</button><button class="next">Next</button>
+</div>
+
+<div class="section" id="page3">
+	<h1>実験の概要</h1>
 	<p>あなたは、世界中から2他の参加者とペアにされます。彼らのアイデンティティがあなたに明らかにされず、あなたはそれらに明らかにされることはありません。あなたの各々は（この数は、各プレイヤーのバッジで括弧内にある）の重量を与えられます。これらの重みの合計は100です。</p>
 	<img src="<?php echo base_url();?>img/propose.png" alt="Proposal Screen">
 	<p>ゲームの目的は、最も重いグループを形成することである。重いグループには、以下に説明する共有ルールのいずれかを使用して、そのメンバーの間に100の実験の通貨単位（C）（参加費に加えて）分割されます。最大の重みを持つグループの一部ではありません参加者（参加料を除く）は何を得るん。</p>
@@ -60,7 +73,7 @@ ini_set('default_charset', 'euc-jp');?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page3">
+<div class="section" id="page4">
 	<h1>提案段階</h1>
 	<p>
 	それはあなたのターンのときは、どちらかの他の参加者（ "選択グループメンバー"の下）に対応するバッジを選択するか、 "推奨されるグループ"のリスト内のエントリのいずれかをクリックして、グループを提案することができるようになります。各提案は、対応するグループの提案のメンバーの完全なリストは、続いてあなたの支払いが含まれています。これらの提案は降順で、ペイアウトでソートされています。 
@@ -73,7 +86,7 @@ ini_set('default_charset', 'euc-jp');?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page4">
+<div class="section" id="page5">
 	<h1>投票ステージ</h1>
 	<p>あなたがグループにそれらを結合するために参加者が提案したときには、グループを承認する投票するように求められます。"代替グループ"リストは、あなたが比較のためにそれらに対応するペイアウトを持つメンバーとなり、そのうち、他のすべてのグループと一緒に現在の提案を見ることができます。</p>
 	<p>"Yes"または "いいえ"をクリックして投票。提案されたグループ内のすべての参加者が "はい"に投票した場合、そのグループが、それ以外のグループが形成されず、形成される。</p>
@@ -81,14 +94,14 @@ ini_set('default_charset', 'euc-jp');?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page5">
+<div class="section" id="page6">
 	<h1>結果ステージ</h1>
 	<p>参加者がグループを提案し、すべての潜在的なメンバーが投票した後は、結果の概要を表示されます。単に実験を続行するには "Continue"を押すか、実験が終わったときに "レビューペイアウト"を押します。</p>
 	<img src="<?php echo base_url();?>img/results.png" alt="Results Screen"><br/>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page6">
+<div class="section" id="page7">
 	<h1>ペイアウトの説明</h1>
 	<p>比例またはEQUALあなたが参加する実験の2つのタイプがあります。</p>
 	<ul>
@@ -108,7 +121,7 @@ ini_set('default_charset', 'euc-jp');?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page8">
 	<h1>お支払い方法と通貨変換</h1>
 <p>あなたの最終的な支払はあなたから参加している国によって異なります。画面に表示される量は、実験的な通貨（C）にあります。すべてのゲームでは、実験的な通貨のC100ユニットは勝者の間で分割されます。お支払いは、あなたからは、国に依存しており、自国で実際のお金に実験的なドルを変換する方法の詳細については、次のセクションで表に記載されています。</p>
 <table>
@@ -137,7 +150,7 @@ ini_set('default_charset', 'euc-jp');?><!DOCTYPE html>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page9">
 	<h1>重要な注意事項</h1>
 	<p>実験を通して自分のペースが監視されます。あなたが割り当てられた時間より長くかかる場合には、あなたのターンはランダムに決定することによって自動化され、あなた支払いはそれに応じて削減されます。あなたは結果を確認することを提案するために45秒、投票する30秒、30秒が与えられます。</p>
 	<p>画面が更新して表示されないか、あなたはエラーが発生していると思われる場合は、ブラウザを更新してください。これは、F5キーを押すことによって達成することができます。</p>

@@ -20,6 +20,11 @@ function group_badge($group,$current_player,$winning=false){
 <div class="group<?php if($winning) { echo " winning"; } ?>" style="margin:5px;">
 	<?php
 	arsort($group['proportions']);
+	if($winning){?>
+		<img src=<?php echo '"' . base_url('img/dollar.png') . '"'; ?> width="64" style="float:left;margin:5px;">
+	<?php } else { ?>
+		<img src=<?php echo '"' . base_url('img/no_dollar.png') . '"'; ?> width="64" style="float:left;margin:5px;">
+	<?php }
 	foreach ($group['proportions'] as $agent => $proportion) {
 
 		$powers = array($agent=>($proportion*$group['power']));

@@ -51,6 +51,19 @@
 
 <div class="section" id="page2">
 	<h1>Tổng quan của thí nghiệm</h1>
+	<ul>
+		<li><strong>Bạn sẽ được ghép nối với hai người tham gia khác từ khắp nơi trên thế giới.</strong></li>
+		<li><strong>Tất cả mọi người sẽ được một trọng lượng.</strong></li>
+		<li><strong>Ở giai đoạn mỗi người bỏ phiếu để tạo thành một nhóm. <br/>
+Mục tiêu của bạn là hình thành một nhóm với tổng trọng lượng lớn nhất.</strong></li>
+		<li><strong>Đội thắng cuộc sẽ phân chia 100 đơn vị tiền tệ nghiệm.</strong></li>
+	</ul>
+	Trong màn hình tiếp theo, chúng tôi thảo luận các chi tiết của trò chơi.
+	<button class="prev">Previous</button><button class="next">Next</button>
+</div>
+
+<div class="section" id="page3">
+	<h1>Tổng quan của thí nghiệm</h1>
 	<p>Bạn sẽ được ghép nối với hai người tham gia khác từ khắp nơi trên thế giới. Danh tính của họ sẽ không được tiết lộ cho bạn và bạn sẽ không được tiết lộ cho họ. Mỗi bạn sẽ được một trọng lượng (con số này là trong ngoặc đơn trong huy hiệu của mỗi cầu thủ). Tổng của các trọng lượng là 100.</p>
 	<img src="<?php echo base_url();?>img/propose.png" alt="Proposal Screen">
 	<p>Mục tiêu của trò chơi là để tạo thành nhóm nặng nhất. Các nhóm nặng nhất sẽ chia 100 đơn vị tiền tệ thực nghiệm (C) giữa các thành viên của nó bằng cách sử dụng một trong các quy tắc chia sẻ thảo luận dưới đây (ngoài lệ phí tham gia). Những người tham gia không phải là một phần của nhóm với trọng lượng lớn nhất sẽ kiếm được không có gì (trừ lệ phí tham gia).</p>
@@ -59,7 +72,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page3">
+<div class="section" id="page4">
 	<h1>Đề nghị Stage</h1>
 	<p>Khi đến lượt của bạn, bạn sẽ có thể đề xuất các nhóm bằng cách chọn phù hiệu tương ứng với những người tham gia khác ("Các thành viên Nhóm Chọn"), hoặc bằng cách nhấn vào một trong các mục trong danh sách của "Nhóm đề nghị". Mỗi đề nghị thanh toán của bạn theo sau bởi một danh sách đầy đủ của các thành viên của nhóm đề nghị tương ứng. Những đề nghị này được sắp xếp theo thanh toán của bạn theo thứ tự giảm dần.</p>
 	<p>Một khi bạn đã hài lòng với đề xuất của bạn, bấm vào nút "Xác nhận đề xuất".</p>
@@ -68,7 +81,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page4">
+<div class="section" id="page5">
 	<h1>Bỏ phiếu giai đoạn</h1>
 	<p>Khi một người tham gia đã đề xuất để bạn có thể tham gia cùng họ trong một nhóm, bạn sẽ được yêu cầu bỏ phiếu chấp thuận việc nhóm. Nhóm "thay thế" danh sách cho phép bạn xem các đề xuất hiện tại cùng với tất cả các nhóm khác trong đó bạn sẽ là một thành viên có trả tiền tương ứng của họ để so sánh.</p>
 	<p>Vote bằng cách nhấp vào "Có" hoặc "Không". Nếu tất cả các thành viên tham gia trong nhóm đề xuất bỏ phiếu "Có", sau đó nhóm sẽ được hình thành, nếu không thì nhóm sẽ không được hình thành.</p>
@@ -76,14 +89,14 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page5">
+<div class="section" id="page6">
 	<h1>Kết quả giai đoạn</h1>
 	<p>Sau khi tham gia đề xuất một nhóm và tất cả các thành viên tiềm năng đã bình chọn, bạn sẽ được hiển thị một cái nhìn tổng quan của kết quả. Đơn giản chỉ cần nhấn "Tiếp tục" để tiến hành thí nghiệm, hoặc bấm "Thanh toán Review" khi thí nghiệm kết thúc.</p>
 	<img src="<?php echo base_url();?>img/results.png" alt="Results Screen"><br/>
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page6">
+<div class="section" id="page7">
 	<h1>Giải thích của Payouts</h1>
 	<p>Có hai loại thí nghiệm mà bạn tham gia, tỷ lệ hoặc EQUAL.</p>
 	<ul>
@@ -103,7 +116,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page7">
+<div class="section" id="page8">
 	<h1>Thanh toán và chuyển đổi tiền tệ</h1>
 	<p>Thanh toán cuối cùng của bạn phụ thuộc vào quốc gia mà bạn đang tham gia. Số tiền được hiển thị trong màn hình là tiền thử nghiệm (C). Trong mỗi trò chơi, C100 đơn vị tiền tệ thử nghiệm được phân chia giữa những người chiến thắng. Thanh toán của bạn là phụ thuộc vào nước bạn đến từ các chi tiết làm thế nào để chuyển đổi đô la thử nghiệm thành tiền thực tế ở nước bạn được đưa ra trong bảng trong phần tiếp theo.</p>
 
@@ -134,7 +147,7 @@
 	<button class="prev">Previous</button><button class="next">Next</button>
 </div>
 
-<div class="section" id="page8">
+<div class="section" id="page9">
 	<h1>Lưu ý quan trọng</h1>
 	<p>Tốc độ của bạn trong suốt thí nghiệm được theo dõi. Nếu bạn mất nhiều thời gian hơn so với thời gian quy định, lần lượt của bạn sẽ được tự động bằng cách thực hiện một quyết định ngẫu nhiên và bạn thanh toán sẽ được giảm phù hợp. Bạn sẽ được 45 giây để đề xuất, 30 giây để bỏ phiếu, và 30 giây để xem xét kết quả.</p>
 	<p>Nếu màn hình không xuất hiện để cập nhật, hoặc bạn tin rằng bạn đang trải qua một lỗi, xin vui lòng làm mới trình duyệt. Điều này có thể được thực hiện bằng cách nhấn phím F5.</p>
