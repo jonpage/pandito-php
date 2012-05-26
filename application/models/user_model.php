@@ -21,6 +21,19 @@ class User_model extends CI_Model{
 		}
 	}
 
+	/**
+	 * Returns a list of authenticated users
+	 * @return mixed if it exists, returns an array of users.
+	 */
+	function get_list(){
+		$query = $this->db->query("SELECT * FROM `user` WHERE `authenticated` = 1");
+		if($query->num_rows()>0){
+			return $query->result_array();
+		} else {
+			return false;
+		}
+	}
+
 	function instructions_status(){
 		$query = $this->db->query("SELECT `instructions` FROM `user` WHERE `email` = '" . $this->session->userdata('email') . "'");
 		if($query->num_rows()==1){

@@ -133,7 +133,8 @@ class Seqsim extends CI_Controller {
 					$this->load->model('seqsim_model');
 					$json = $this->seqsim_model->update_turn($json,$num_agents);
 					$start1 = strpos($json,'proposed_groups');
-					$end1 = strpos($json,'}]',$start1);
+					//$end1 = strpos($json,'}]',$start1);
+					$end1 = strpos($json,'votes',$start1);
 					$str1 = substr($json, $start1, $end1-$start1);
 					$start2 = strpos($json,'"stage');
 					$end2 = strpos($json,'coals"');

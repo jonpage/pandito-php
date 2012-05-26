@@ -139,7 +139,7 @@ Su objetivo es formar un equipo con el mayor peso total.</strong></li>
 		<tr><td>China</td><td>Yuan chino</td><td>11,00</td><td>18,00</td></tr>
 		<tr><td>India</td><td>Rupia india</td><td>60,00</td><td>100,00</td></tr>
 		<tr><td>Irán</td><td>Rial iraní</td><td>14.000,00</td><td>24.600,00</td></tr>
-		<tr><td>Irak</td><td>Dinar iraquí</td><td>2400.00</td><td>4000.00</td></tr>
+		<tr><td>Irak</td><td>Dinar iraquí</td><td>4000.00</td><td>4000.00</td></tr>
 		<tr><td>Israel</td><td>Nuevo shekel israelí</td><td>11,00</td><td>19,00</td></tr>
 		<tr><td>Japón</td><td>Yen Japonés</td><td>230,00</td><td>380,00</td></tr>
 		<tr><td>México</td><td>Peso mexicano</td><td>25,00</td><td>40,00</td></tr>

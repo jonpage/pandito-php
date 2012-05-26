@@ -30,6 +30,8 @@ if($this->session->userdata('is_logged_in')!=true){
 	}
 </script>
 
+<?php echo anchor('site/userlist','User List','target="_blank"'); ?>
+
 <h1>Current Sessions</h1>
 <table class="admin">
 	<tr><th>Session ID</th><th>Stage (Round.Turn)</th><th>emails[agent_num]</th><th>Powers</th><th>Controller</th><th>Start_Time</th><th>ABORT</th></tr>

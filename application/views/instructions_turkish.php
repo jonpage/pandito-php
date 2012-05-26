@@ -130,25 +130,25 @@ Hedefiniz büyük toplam aðýrlýðý olan bir ekip oluþturmaktýr.</strong></li>
 
 	<table>
 		<tr><th>Ülke</th><th>Para Birimi</th><th>Katýlým  Bonusu (yerel para birimi)</th><th>C100’ün karþýlýk gelen deðeri</th></tr>
-		<tr><td>Arjantin</td><td>Arjantin Pesosu</td><td>14.00</td><td>24.00</td></tr>
-		<tr><td>Avusturalya</td><td>Avusturalya Dolarý</td><td>3.50</td><td>6.00</td></tr>
-		<tr><td>Brezilya</td><td>Brezilya Reali</td><td>7.00</td><td>12.00</td></tr>
-		<tr><td>Kanada</td><td>Kanada Dolarý</td><td>3.00</td><td>5.00</td></tr>
-		<tr><td>Çin</td><td>Çin Yuaný</td><td>11.00</td><td>18.00</td></tr>
-		<tr><td>Hindistan</td><td>Hindistan Rupisi</td><td>60.00</td><td>100.00</td></tr>
-		<tr><td>Ýran</td><td>Ýran Riyali</td><td>14000.00</td><td>24600.00</td></tr>
-		<tr><td>Irak</td><td>Irak Dinarý</td><td>2400.00</td><td>4000.00</td></tr>
-		<tr><td>Ýsrail</td><td>Ýsrail Yeni Þekeli</td><td>11.00</td><td>19.00</td></tr>
-		<tr><td>Japonya</td><td>Yapon Yeni</td><td>230.00</td><td>380.00</td></tr>
-		<tr><td>Meksika</td><td>Meksika Pezosu</td><td>25.00</td><td>40.00</td></tr>
-		<tr><td>Pakistan</td><td>Pakistan Rupisi</td><td>180.00</td><td>310.00</td></tr>
-		<tr><td>Filipinler</td><td>Filipin Pezosu</td><td>85.00</td><td>140.00</td></tr>
-		<tr><td>Güney Afrika</td><td>Güney Afrika Randý</td><td>14.00</td><td>24.00</td></tr>
-		<tr><td>Ýspanya</td><td>Euro</td><td>4.00</td><td>7.00</td></tr>
-		<tr><td>Tayland</td><td>Tayland Bahtý</td><td>55.00</td><td>90.00</td></tr>
-		<tr><td>Türkiye</td><td>Türk Lirasý</td><td>4.50</td><td>8.00</td></tr>
-		<tr><td>Birleþik Devletler</td><td>Amerikan Dolarý</td><td>3.00</td><td>5.00</td></tr>
-		<tr><td>Vietnam</td><td>Vietnam Dongu</td><td>23000.00</td><td>40000.00</td></tr>
+		<tr><td>Arjantin</td><td>Arjantin Pesosu</td><td>24.00</td><td>24.00</td></tr>
+		<tr><td>Avusturalya</td><td>Avusturalya Dolarý</td><td>6.00</td><td>6.00</td></tr>
+		<tr><td>Brezilya</td><td>Brezilya Reali</td><td>12.00</td><td>12.00</td></tr>
+		<tr><td>Kanada</td><td>Kanada Dolarý</td><td>5.00</td><td>5.00</td></tr>
+		<tr><td>Çin</td><td>Çin Yuaný</td><td>18.00</td><td>18.00</td></tr>
+		<tr><td>Hindistan</td><td>Hindistan Rupisi</td><td>100.00</td><td>100.00</td></tr>
+		<tr><td>Ýran</td><td>Ýran Riyali</td><td>80000.00</td><td>80000.00</td></tr>
+		<tr><td>Irak</td><td>Irak Dinarý</td><td>4000.00</td><td>4000.00</td></tr>
+		<tr><td>Ýsrail</td><td>Ýsrail Yeni Þekeli</td><td>20.00</td><td>20.00</td></tr>
+		<tr><td>Japonya</td><td>Yapon Yeni</td><td>380.00</td><td>380.00</td></tr>
+		<tr><td>Meksika</td><td>Meksika Pezosu</td><td>40.00</td><td>40.00</td></tr>
+		<tr><td>Pakistan</td><td>Pakistan Rupisi</td><td>310.00</td><td>310.00</td></tr>
+		<tr><td>Filipinler</td><td>Filipin Pezosu</td><td>140.00</td><td>140.00</td></tr>
+		<tr><td>Güney Afrika</td><td>Güney Afrika Randý</td><td>24.00</td><td>24.00</td></tr>
+		<tr><td>Ýspanya</td><td>Euro</td><td>7.00</td><td>7.00</td></tr>
+		<tr><td>Tayland</td><td>Tayland Bahtý</td><td>90.00</td><td>90.00</td></tr>
+		<tr><td>Türkiye</td><td>Türk Lirasý</td><td>10.00</td><td>10.00</td></tr>
+		<tr><td>Birleþik Devletler</td><td>Amerikan Dolarý</td><td>5.00</td><td>5.00</td></tr>
+		<tr><td>Vietnam</td><td>Vietnam Dongu</td><td>40000.00</td><td>40000.00</td></tr>
 	</table>
 
 	<p>Örneðin, Meksika’dan bir oyuncu, dört oyun sonunda C25 + C52 + C100 + C25 kadar kazanç elde ederse, gerçek kazanç toplamý, katýlým bonusu olan 25 Meksika Pezosu ve deðeri 80 Meksika Pezosu olan C200 deney parasý olacaktýr. Toplam ödeme 105 Meksika Pezosu olacaktýr.</p>

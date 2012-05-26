@@ -126,25 +126,25 @@ header('Content-Type: text/html; charset=GB18030');?><!DOCTYPE html>
 	<p>您的最终付款取决于你正在参加由该国。在屏幕上显示的金额是对实验性货币（c）。在每场比赛中，C100级实验货币单位的优胜者之间的分裂。您的奖金是取决于你是从国家和实验美元，在你的家乡如何转换到实际货币表中，将在下一节详细信息。</p>
 	<table>
 		<tr><th>国家</th><th>货币</th><th>particiption费（按当地货币计算）</th><th>以当地货币值期C100</th></tr>
-		<tr><td>阿根廷</td><td>阿根廷比索</td><td>14.00</td><td>24.00</td></tr>
-		<tr><td>澳大利亚</td><td>澳大利亚元</td><td>3.50</td><td>6.00</td></tr>
-		<tr><td>巴西</td><td>巴西雷亚尔</td><td>7.00</td><td>12.00</td></tr>
-		<tr><td>加拿大</td><td>加拿大元</td><td>3.00</td><td>5.00</td></tr>
-		<tr><td>中国</td><td>中国元</td><td>11.00</td><td>18.00</td></tr>
-		<tr><td>印度</td><td>印度卢比</td><td>60.00</td><td>100.00</td></tr>
-		<tr><td>伊朗</td><td>伊朗里亚尔</td><td>14000.00</td><td>24600.00</td></tr>
-		<tr><td>伊拉克</td><td>伊拉克第纳尔</td><td>2400.00</td><td>4000.00</td></tr>
-		<tr><td>以色列</td><td>以色列新谢克尔</td><td>11.00</td><td>19.00</td></tr>
-		<tr><td>日本</td><td>日元</td><td>230.00</td><td>380.00</td></tr>
-		<tr><td>墨西哥</td><td>墨西哥比索</td><td>25.00</td><td>40.00</td></tr>
-		<tr><td>巴基斯坦</td><td>巴基斯坦卢比</td><td>180.00</td><td>310.00</td></tr>
-		<tr><td>菲律宾</td><td>菲律宾比索</td><td>85.00</td><td>140.00</td></tr>
-		<tr><td>南非</td><td>南非兰特</td><td>14.00</td><td>24.00</td></tr>
-		<tr><td>西班牙</td><td>欧元</td><td>4.00</td><td>7.00</td></tr>
-		<tr><td>泰国</td><td>泰铢</td><td>55.00</td><td>90.00</td></tr>
-		<tr><td>土耳其</td><td>土耳其里拉</td><td>4.50</td><td>8.00</td></tr>
-		<tr><td>美国</td><td>美国美元</td><td>3.00</td><td>5.00</td></tr>
-		<tr><td>越南</td><td>越南盾</td><td>23000.00</td><td>40000.00</td></tr>
+		<tr><td>阿根廷</td><td>阿根廷比索</td><td>24.00</td><td>24.00</td></tr>
+		<tr><td>澳大利亚</td><td>澳大利亚元</td><td>6.00</td><td>6.00</td></tr>
+		<tr><td>巴西</td><td>巴西雷亚尔</td><td>12.00</td><td>12.00</td></tr>
+		<tr><td>加拿大</td><td>加拿大元</td><td>5.00</td><td>5.00</td></tr>
+		<tr><td>中国</td><td>中国元</td><td>18.00</td><td>18.00</td></tr>
+		<tr><td>印度</td><td>印度卢比</td><td>100.00</td><td>100.00</td></tr>
+		<tr><td>伊朗</td><td>伊朗里亚尔</td><td>80000.00</td><td>80000.00</td></tr>
+		<tr><td>伊拉克</td><td>伊拉克第纳尔</td><td>4000.00</td><td>4000.00</td></tr>
+		<tr><td>以色列</td><td>以色列新谢克尔</td><td>20.00</td><td>20.00</td></tr>
+		<tr><td>日本</td><td>日元</td><td>380.00</td><td>380.00</td></tr>
+		<tr><td>墨西哥</td><td>墨西哥比索</td><td>40.00</td><td>40.00</td></tr>
+		<tr><td>巴基斯坦</td><td>巴基斯坦卢比</td><td>310.00</td><td>310.00</td></tr>
+		<tr><td>菲律宾</td><td>菲律宾比索</td><td>140.00</td><td>140.00</td></tr>
+		<tr><td>南非</td><td>南非兰特</td><td>24.00</td><td>24.00</td></tr>
+		<tr><td>西班牙</td><td>欧元</td><td>7.00</td><td>7.00</td></tr>
+		<tr><td>泰国</td><td>泰铢</td><td>90.00</td><td>90.00</td></tr>
+		<tr><td>土耳其</td><td>土耳其里拉</td><td>10.00</td><td>10.00</td></tr>
+		<tr><td>美国</td><td>美国美元</td><td>5.00</td><td>5.00</td></tr>
+		<tr><td>越南</td><td>越南盾</td><td>40000.00</td><td>40000.00</td></tr>
 	</table>
 	<p>作为一个例子，如果一个球员从墨西哥胜C25 + C50 + C100 + C25在四场比赛，他的实际带回家的奖金将显示25墨西哥比索，加上C200的实验美元，相当于80墨西哥比索。总支出105墨西哥比索。</p>
 	<button class="prev">Previous</button><button class="next">Next</button>

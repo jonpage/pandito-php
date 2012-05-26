@@ -62,6 +62,24 @@ class Site extends CI_Controller{
 		}
 	}
 
+	function userlist(){
+		// Get user permissions
+		$this->load->model('user_model');
+		$permissions = $this->user_model->user_permissions();
+		
+		if($permissions['admin']==1){
+
+			$userlist = $this->user_model->get_list();
+			$template_data['main_content']='userlist';
+			$template_data['data']=array("userlist" => $userlist);
+
+			$this->load->view('includes/template',$template_data);
+
+		} else {
+			redirect('site/main');
+		}
+	}
+
 	function admin(){
 		// Get user permissions
 		$this->load->model('user_model');

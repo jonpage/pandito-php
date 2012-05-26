@@ -124,25 +124,25 @@ Ang iyong layunin ay upang bumuo ng isang team na may pinakamalaking kabuuang ti
 	<p>Ang iyong kabuuang bayad ay depende sa bansa kung saan ikaw ay kalahok. Ang halaga na ipinapakita sa screen ay nasa experimental currency (C). Sa bawat laro, ang C100 units ng experimental currency ay hinahati sa pagitan ng mga nanalong kalahok. Ang iyong payout ay nakasalalay sa bansa kung saan ka nagmula, at ang mga detalye nito kung papaano i-convert ang mga experimental dollars sa aktwal na pera ay ipinapakita sa talaan sa ibaba.</p>
 	<table>
 		<tr>Bansa</th><th>Salapi</th><th>Kabayaran sa Paglahok (ayon sa sariling salapi)</th><th>Halaga ng C100 sa sariling salapi</th></tr>
-		<tr><td>Argentina</td><td>Argentine Peso</td><td>14.00</td><td>24.00</td></tr>
-		<tr><td>Australia</td><td>Australian Dollar</td><td>3.50</td><td>6.00</td></tr>
-		<tr><td>Brazil</td><td>Brazilian Real</td><td>7.00</td><td>12.00</td></tr>
-		<tr><td>Canada</td><td>Canadian Dollar</td><td>3.00</td><td>5.00</td></tr>
-		<tr><td>China</td><td>Chinese Yuan</td><td>11.00</td><td>18.00</td></tr>
-		<tr><td>India</td><td>Indian Rupee</td><td>60.00</td><td>100.00</td></tr>
-		<tr><td>Iran</td><td>Iranian Rial</td><td>14000.00</td><td>24600.00</td></tr>
-		<tr><td>Iraq</td><td>Iraqi Dinar</td><td>2400.00</td><td>4000.00</td></tr>
-		<tr><td>Israel</td><td>Israeli New Shekel</td><td>11.00</td><td>19.00</td></tr>
-		<tr><td>Japan</td><td>Japanese Yen</td><td>230.00</td><td>380.00</td></tr>
-		<tr><td>Mexico</td><td>Mexican Peso</td><td>25.00</td><td>40.00</td></tr>
-		<tr><td>Pakistan</td><td>Pakistani Rupee</td><td>180.00</td><td>310.00</td></tr>
-		<tr><td>Philippines</td><td>Philippine Peso</td><td>85.00</td><td>140.00</td></tr>
-		<tr><td>South Africa</td><td>South African Rand</td><td>14.00</td><td>24.00</td></tr>
-		<tr><td>Spain</td><td>Euro</td><td>4.00</td><td>7.00</td></tr>
-		<tr><td>Thailand</td><td>Thai Baht</td><td>55.00</td><td>90.00</td></tr>
-		<tr><td>Turkey</td><td>Turkish Lira</td><td>4.50</td><td>8.00</td></tr>
-		<tr><td>United States</td><td>United States Dollar</td><td>3.00</td><td>5.00</td></tr>
-		<tr><td>Vietnam</td><td>Vietnamese Dong</td><td>23000.00</td><td>40000.00</td></tr>
+		<tr><td>Argentina</td><td>Argentine Peso</td><td>24.00</td><td>24.00</td></tr>
+		<tr><td>Australia</td><td>Australian Dollar</td><td>6.00</td><td>6.00</td></tr>
+		<tr><td>Brazil</td><td>Brazilian Real</td><td>12.00</td><td>12.00</td></tr>
+		<tr><td>Canada</td><td>Canadian Dollar</td><td>5.00</td><td>5.00</td></tr>
+		<tr><td>China</td><td>Chinese Yuan</td><td>18.00</td><td>18.00</td></tr>
+		<tr><td>India</td><td>Indian Rupee</td><td>100.00</td><td>100.00</td></tr>
+		<tr><td>Iran</td><td>Iranian Rial</td><td>80000.00</td><td>80000.00</td></tr>
+		<tr><td>Iraq</td><td>Iraqi Dinar</td><td>4000.00</td><td>4000.00</td></tr>
+		<tr><td>Israel</td><td>Israeli New Shekel</td><td>20.00</td><td>20.00</td></tr>
+		<tr><td>Japan</td><td>Japanese Yen</td><td>380.00</td><td>380.00</td></tr>
+		<tr><td>Mexico</td><td>Mexican Peso</td><td>40.00</td><td>40.00</td></tr>
+		<tr><td>Pakistan</td><td>Pakistani Rupee</td><td>310.00</td><td>310.00</td></tr>
+		<tr><td>Philippines</td><td>Philippine Peso</td><td>140.00</td><td>140.00</td></tr>
+		<tr><td>South Africa</td><td>South African Rand</td><td>24.00</td><td>24.00</td></tr>
+		<tr><td>Spain</td><td>Euro</td><td>7.00</td><td>7.00</td></tr>
+		<tr><td>Thailand</td><td>Thai Baht</td><td>90.00</td><td>90.00</td></tr>
+		<tr><td>Turkey</td><td>Turkish Lira</td><td>10.00</td><td>10.00</td></tr>
+		<tr><td>United States</td><td>United States Dollar</td><td>5.00</td><td>5.00</td></tr>
+		<tr><td>Vietnam</td><td>Vietnamese Dong</td><td>40000.00</td><td>40000.00</td></tr>
 	</table>
 	<p>Halimbawa, kung ang isang manlalaro na taga Mexico ay nanalo C25 + C50 + C100 + C25 sa apat na laro, ang kanyang aktwal na premyo ay 25 Mexican pesos, para kabayaran sa pakikilahok at C200 experimental dollars, na katumbas ng  80 Mexican pesos. Ang kabuuang payout ay 105 Mexican pesos.</p>
 	<button class="prev">Previous</button><button class="next">Next</button>
