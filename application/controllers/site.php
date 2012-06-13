@@ -80,6 +80,24 @@ class Site extends CI_Controller{
 		}
 	}
 
+	function paymentlist(){
+		// Get user permissions
+		$this->load->model('user_model');
+		$permissions = $this->user_model->user_permissions();
+		
+		if($permissions['admin']==1){
+
+			$payments = $this->user_model->get_payments();
+			$template_data['main_content']='payment_list';
+			$template_data['data']=array("payments" => $payments);
+
+			$this->load->view('includes/template',$template_data);
+
+		} else {
+			redirect('site/main');
+		}
+	}
+
 	function admin(){
 		// Get user permissions
 		$this->load->model('user_model');

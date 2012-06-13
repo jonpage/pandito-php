@@ -103,7 +103,7 @@ echo "<br/>";
 echo form_label('Strongly Disagree','rel_2_sd'); 
 ?>
 
-<p>4) How many Experimental Currency Units would you have given up to join a group with someone of your own religion?</p>
+<p>4) If you won 50 Experimental Currency Units, how many Experimental Currency Units would you have given up to join a group with someone of your own religion?</p>
 <?php echo form_input( array(
               'name'        => 'rel_amount',
               'id'          => 'rel_amount',
@@ -176,7 +176,7 @@ echo "<br/>";
 echo form_label('Strongly Disagree','race_2_sd'); 
 ?>
 
-<p>7) How many Experimental Currency Units would you have given up to join a group with someone of your own race/ethnicity?</p>
+<p>7) If you won 50 Experimental Currency Units, how many Experimental Currency Units would you have given up to join a group with someone of your own race/ethnicity?</p>
 <?php echo form_input( array(
               'name'        => 'race_amount',
               'id'          => 'race_amount',
@@ -248,7 +248,7 @@ echo "<br/>";
 //echo form_radio(array('name' => 'nationality_2', 'id' => 'nat_2_sd', 'value' => 'sd', 'checked' => false));
 echo form_label('Strongly Disagree','nat_2_sd'); 
 ?>
-<p>10) How many Experimental Currency Units would you have given up to join a group with someone of your own nationality?</p>
+<p>10) If you won 50 Experimental Currency Units, how many Experimental Currency Units would you have given up to join a group with someone of your own nationality?</p>
 <?php echo form_input( array(
               'name'        => 'nat_amount',
               'id'          => 'nat_amount',

@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/**
+ * @author Jonathan Page <jonpage.econ@gmail.com>
+ */
+
+if($this->session->userdata('is_logged_in')!=true){
+	redirect('login/index');
+} else {
+?><!DOCTYPE html>
 <html>
 <head>
 	<title>User List</title>
@@ -20,4 +28,4 @@
 		?>
 	</table>
 </body>
-</html>
+</html><?php } ?>

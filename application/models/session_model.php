@@ -145,7 +145,12 @@ class Session_model extends CI_Model{
 							if($sharing=="proportional"){
 								$current_payout = round($value*100);
 							} else {
-								$current_payout = 100/count($old_json['current_groups'][0]['proportions']);
+								if(count($old_json['current_groups'][0]['proportions'])!=0){
+									$current_payout = 100/count($old_json['current_groups'][0]['proportions']);
+								} else {
+									$current_payout = 0;
+								}
+								
 							}
 							
 						}
@@ -349,7 +354,7 @@ class Session_model extends CI_Model{
 	function get_current_session_data(){
 		$current = array();
 		// session and treatment query
-		$query  = $this->db->query("SELECT `session`.`id`,`session`.`start_time`,`treatment`.`controller`,`treatment`.`config`,`treatment`.`internal_name` FROM `session`,`treatment`,`session_members` WHERE `session`.`end_time`=0 AND `session`.`treatment_id` = `treatment`.`id` AND `session`.`id` = `session_members`.`session_id` ORDER BY `session`.`id` DESC");
+		$query  = $this->db->query("SELECT `session`.`id`,UNIX_TIMESTAMP(`session`.`start_time`) AS 'start_time',`treatment`.`controller`,`treatment`.`config`,`treatment`.`internal_name` FROM `session`,`treatment`,`session_members` WHERE `session`.`end_time`=0 AND `session`.`treatment_id` = `treatment`.`id` AND `session`.`id` = `session_members`.`session_id` ORDER BY `session`.`id` DESC");
 		if($query->num_rows()>0){
 			foreach ($query->result() as $row) {
 				//echo $row->id . "<br/>";
@@ -366,10 +371,10 @@ class Session_model extends CI_Model{
 		
 		foreach ($current as $id => $session) {
 			// members query
-			$query2 = $this->db->query("SELECT `session_members`.`agent_num`, `user`.`email` FROM `session_members`, `user` WHERE `session_members`.`user_id` = `user`.`id` AND `session_members`.`session_id` = $id ");
+			$query2 = $this->db->query("SELECT `session_members`.`agent_num`, `user`.`email`, `user`.`religion`, `user`.`nationality` FROM `session_members`, `user` WHERE `session_members`.`user_id` = `user`.`id` AND `session_members`.`session_id` = $id ");
 			if($query2->num_rows()>0){
 				foreach ($query2->result() as $row) {
-					$current[$id]['members'][] = array("agent_num" => $row->agent_num, "email" => $row->email);
+					$current[$id]['members'][] = array("agent_num" => $row->agent_num, "email" => $row->email, "religion" => $row->religion, "nationality" => $row->nationality);
 				}
 			}
 
@@ -399,7 +404,7 @@ class Session_model extends CI_Model{
 	function get_finished_session_data(){
 		$finished = array();
 		// session and treatment query
-		$query  = $this->db->query("SELECT `session`.`id`,`session`.`end_time`,`treatment`.`controller`,`treatment`.`config`,`treatment`.`internal_name` FROM `session`,`treatment` WHERE `session`.`end_time`<>0 AND `session`.`treatment_id` = `treatment`.`id` ORDER BY `session`.`id` DESC");
+		$query  = $this->db->query("SELECT `session`.`id`,UNIX_TIMESTAMP(`session`.`end_time`) AS 'end_time',`treatment`.`controller`,`treatment`.`config`,`treatment`.`internal_name` FROM `session`,`treatment` WHERE `session`.`end_time`<>0 AND `session`.`treatment_id` = `treatment`.`id` ORDER BY `session`.`id` DESC");
 		if($query->num_rows()>0){
 			foreach ($query->result() as $row) {
 				//echo $row->id . "<br/>";
@@ -416,11 +421,11 @@ class Session_model extends CI_Model{
 		
 		foreach ($finished as $id => $session) {
 			// members query
-			$query2 = $this->db->query("SELECT `session_members`.`agent_num`, `user`.`email`, `payouts`.`moves_tot`, `payouts`.`moves_ai` FROM `session_members`, `user`, `payouts` WHERE `session_members`.`user_id` = `user`.`id` AND `session_members`.`session_id` = $id AND `payouts`.`session_id` = $id AND `payouts`.`agent_num` = `session_members`.`agent_num`");
+			$query2 = $this->db->query("SELECT `session_members`.`agent_num`, `user`.`email`, `user`.`religion`, `user`.`nationality`, `payouts`.`moves_tot`, `payouts`.`moves_ai` FROM `session_members`, `user`, `payouts` WHERE `session_members`.`user_id` = `user`.`id` AND `session_members`.`session_id` = $id AND `payouts`.`session_id` = $id AND `payouts`.`agent_num` = `session_members`.`agent_num`");
 			if($query2->num_rows()>0){
 				foreach ($query2->result() as $row) {
 					$ai = round( ($row->moves_ai * 100)/$row->moves_tot );
-					$finished[$id]['members'][] = array("agent_num" => $row->agent_num, "email" => $row->email, "ai" => $ai);
+					$finished[$id]['members'][] = array("agent_num" => $row->agent_num, "email" => $row->email, "religion" => $row->religion, "nationality" => $row->nationality, "ai" => $ai);
 				}
 			}
 

@@ -30,7 +30,8 @@ if($this->session->userdata('is_logged_in')!=true){
 	}
 </script>
 
-<?php echo anchor('site/userlist','User List','target="_blank"'); ?>
+<?php echo anchor('site/userlist','User List','target="_blank"'); ?><br/>
+<?php echo anchor('site/paymentlist','Payment List','target="_blank"'); ?>
 
 <h1>Current Sessions</h1>
 <table class="admin">
@@ -56,19 +57,15 @@ if($this->session->userdata('is_logged_in')!=true){
 			echo "";
 			$string = "";
 			foreach ($session['members'] as $member) {
-				$string = $string . "[" . ($member['agent_num']+1) . "] " . $member['email'] . "<br/>";
+				$string = $string . "[" . ($member['agent_num']+1) . "] " . $member['email'] . "<br/>" . $member['nationality'] . ", " . $member['religion'] . "<br/>";
 			}
 			$string = rtrim($string,"<br/>");
 			echo "$string";
 		 ?></td>
 		 <td><?php echo $session['powers']; ?></td>
 		 <td><?php echo $session['controller'] ?></td>
-		 <td>
-		 	<script type="text/javascript">
-				var end = new Date();
-				end.setTime(<?php echo $session['start_time']+0; ?>000);
-				document.write(end.toLocaleString());
-			</script>
+		 <td  class='timestamp'>
+		 	<?php echo $session['start_time']; ?>
 		</td>
 		<td><input style="color:red" type="button" onclick=<?php echo '"abort(' . $id . ')"'; ?> value="ABORT"></td>
 	</tr>
@@ -105,19 +102,15 @@ if($this->session->userdata('is_logged_in')!=true){
 			echo "";
 			$string = "";
 			foreach ($session['members'] as $member) {
-				$string = $string . "[" . ($member['agent_num']+1) . "] " . $member['email'] . " (" . $member['ai'] . "%)<br/>";
+				$string = $string . "[" . ($member['agent_num']+1) . "] " . $member['email'] . " (" . $member['ai'] . "%)<br/>" . $member['nationality'] . ", " . $member['religion'] . "<br/>";
 			}
 			$string = rtrim($string,"<br/>");
 			echo "$string";
 		 ?></td>
 		 <td><?php echo $session['powers']; ?></td>
 		 <td><?php echo $session['controller'] ?></td>
-		 <td>
-		 	<script type="text/javascript">
-				var end = new Date();
-				end.setTime(<?php echo $session['end_time']+0; ?>000);
-				document.write(end.toLocaleString());
-			</script>
+		 <td  class='timestamp'>
+		 	<?php echo $session['end_time']; ?>
 		</td>
 	</tr>
 		<?php

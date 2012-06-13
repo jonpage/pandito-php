@@ -22,6 +22,20 @@ class User_model extends CI_Model{
 	}
 
 	/**
+	 * Returns a list of payments due agents
+	 * @return [type] [description]
+	 */
+	function get_payments(){
+		$query = $this->db->query("SELECT `user`.*, `payments`.* FROM `user`,`payments` WHERE `authenticated` = 1 AND `user`.`id` = `payments`.`user_id` AND `payments`.`sent` = 0 ORDER BY `user`.`email`");
+		if($query->num_rows()>0){
+			return $query->result_array();
+		} else {
+			return false;
+		}
+
+	}
+
+	/**
 	 * Returns a list of authenticated users
 	 * @return mixed if it exists, returns an array of users.
 	 */

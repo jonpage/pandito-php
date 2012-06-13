@@ -128,7 +128,7 @@ Return to the main page: <?php echo anchor("site/main/","Click Here"); ?>
 <div class="center_col">
 	<h1>Your Badge</h1><br/>
 	<div style="display:inline-block;width:60px;height:60px;text-align:center;">
-		<?php echo "<div class='mini_mini_badge current_player' style='text-align:center'>" . ($player+1); ?></div>
+		<?php echo "<div class='mini_mini_badge current_player' style='text-align:center'>" . ($agent_num+1); ?></div>
 	</div><br/>
 	
 	<h1>Final Groups</h1><br/>

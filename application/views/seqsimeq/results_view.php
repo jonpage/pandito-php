@@ -170,7 +170,7 @@ function timeline($json,$agent_num){
 <span class="header_text">Your Badge</span>
 <div class="mini_badge current_player header_badge"><?php echo ($agent_num+1); ?></div>
 <div class="header_spacer"></div>
-<span class="header_text">You Current Payout</span>
+<span class="header_text">Your Current Payout</span>
 <div class="stats_left header_stats">C</div><div class="stats_right header_stats current_payout"><?php echo $current_payout; ?></div>
 <div class="header_spacer"></div>
 <span class="header_text">Timeline</span>

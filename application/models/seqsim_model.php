@@ -16,7 +16,8 @@ class Seqsim_model extends CI_Model{
 		$round_r = $round_q->result();
 		$round_json = json_decode($round_r[0]->json,true);
 		$current_round = $round_json['round'];
-		$query_str = "SELECT * FROM `session_log` WHERE `json` LIKE '%$search_string%'";
+		// updated to include a check for session_id, that ommission was obviously causing some interesting errors
+		$query_str = "SELECT * FROM `session_log` WHERE `session_id` = $session_id AND `json` LIKE '%$search_string%'";
 		//echo "<p>$query_str</p>";
 		$query = $this->db->query($query_str);
 		if($query->num_rows()>0){

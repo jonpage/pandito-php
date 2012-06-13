@@ -16,6 +16,7 @@ $json_array = json_decode($json,true);
  */
 function group_badge($json,$group,$current_player,$winning=false){
 //var_dump($group['proportions']);
+
 ?>
 
 <div class="group<?php if($winning) { echo " winning"; } ?>" style="margin:5px;">
