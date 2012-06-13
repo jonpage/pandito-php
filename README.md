@@ -9,3 +9,6 @@ The goal of **Pando** is to provide a framework for the deployment of online syn
 *application/config/config.php*.
 - Modify *routes.php* so that:  
 `$route['default_controller'] = "login";`
+- Change  
+`echo "'http://wispt.com/test/index.php?email=`  
+on line 28 of *view\main_view.php* to match the location of the *test* folder in your setup.
